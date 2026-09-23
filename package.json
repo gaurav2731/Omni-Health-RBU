@@ -1,0 +1,7 @@
+{
+  "name": "omnihealth-lite",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OmniHealth Lite - hospital discovery platform (backend + frontend + shared modules)"
+}

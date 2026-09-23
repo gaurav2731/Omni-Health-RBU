@@ -1,0 +1,1489 @@
+[
+  {
+    "id": 1,
+    "name": "Chandigarh Kidney & Nephrology Institute",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "pincode": "160017",
+    "lat": 30.7333,
+    "long": 76.7794,
+    "specialties": [
+      "kidney",
+      "nephrology",
+      "urology"
+    ],
+    "cost_estimate_min": 80000,
+    "cost_estimate_max": 180000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 120,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 2400,
+    "rating": 4.7
+  },
+  {
+    "id": 2,
+    "name": "Fortis Multispecialty Hospital Mohali",
+    "city": "Mohali",
+    "state": "Punjab",
+    "pincode": "160062",
+    "lat": 30.7046,
+    "long": 76.7179,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "orthopedic",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 150000,
+    "cost_estimate_max": 350000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 350,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 45000,
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "name": "PGIMER Advanced Cardiac & Respiratory Centre",
+    "city": "Chandigarh",
+    "state": "Chandigarh",
+    "pincode": "160012",
+    "lat": 30.764,
+    "long": 76.778,
+    "specialties": [
+      "cardiac",
+      "pulmonology",
+      "neurology",
+      "kidney"
+    ],
+    "cost_estimate_min": 25000,
+    "cost_estimate_max": 120000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Research Wing",
+      "Emergency Care"
+    ],
+    "bed_count": 2100,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 120000,
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "name": "Max Super Speciality Hospital Mohali",
+    "city": "Mohali",
+    "state": "Punjab",
+    "pincode": "160055",
+    "lat": 30.725,
+    "long": 76.73,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "oncology"
+    ],
+    "cost_estimate_min": 200000,
+    "cost_estimate_max": 450000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 280,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 38000,
+    "rating": 4.6
+  },
+  {
+    "id": 5,
+    "name": "Garhshankar Civil Hospital",
+    "city": "Garhshankar",
+    "state": "Punjab",
+    "pincode": "144527",
+    "lat": 31.2167,
+    "long": 76.1333,
+    "specialties": [
+      "general medicine",
+      "orthopedic",
+      "pediatrics"
+    ],
+    "cost_estimate_min": 10000,
+    "cost_estimate_max": 45000,
+    "facilities": [
+      "Basic ICU",
+      "Ambulance"
+    ],
+    "bed_count": 60,
+    "accreditation_status": "Not Accredited",
+    "patient_volume": 1500,
+    "rating": 4.2
+  },
+  {
+    "id": 6,
+    "name": "Hoshiarpur District Civil Hospital",
+    "city": "Hoshiarpur",
+    "state": "Punjab",
+    "pincode": "146001",
+    "lat": 31.532,
+    "long": 75.9117,
+    "specialties": [
+      "pulmonology",
+      "gynecology",
+      "orthopedic"
+    ],
+    "cost_estimate_min": 15000,
+    "cost_estimate_max": 60000,
+    "facilities": [
+      "ICU",
+      "Ambulance",
+      "24x7 Emergency"
+    ],
+    "bed_count": 150,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 2200,
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "name": "Jalandhar Heart & Lungs Institute",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "pincode": "144001",
+    "lat": 31.326,
+    "long": 75.5762,
+    "specialties": [
+      "cardiac",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 180000,
+    "cost_estimate_max": 400000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Private Rooms"
+    ],
+    "bed_count": 140,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 3300,
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "name": "Apollo Clinic Jalandhar",
+    "city": "Jalandhar",
+    "state": "Punjab",
+    "pincode": "144002",
+    "lat": 31.326,
+    "long": 75.5762,
+    "specialties": [
+      "oncology",
+      "kidney",
+      "gastroenterology"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 250000,
+    "facilities": [
+      "ICU",
+      "Chemotherapy Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 110,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 2700,
+    "rating": 4.5
+  },
+  {
+    "id": 9,
+    "name": "Ludhiana Ortho & Trauma Center",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "pincode": "141001",
+    "lat": 30.901,
+    "long": 75.8573,
+    "specialties": [
+      "orthopedic",
+      "trauma"
+    ],
+    "cost_estimate_min": 70000,
+    "cost_estimate_max": 220000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "24x7 Emergency"
+    ],
+    "bed_count": 200,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 3900,
+    "rating": 4.5
+  },
+  {
+    "id": 10,
+    "name": "Dayanand Medical College (DMC) Ludhiana",
+    "city": "Ludhiana",
+    "state": "Punjab",
+    "pincode": "141008",
+    "lat": 30.901,
+    "long": 75.8573,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "neurology",
+      "oncology",
+      "pulmonology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 100000,
+    "cost_estimate_max": 380000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency",
+      "Dialysis Unit"
+    ],
+    "bed_count": 1200,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 85000,
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "name": "AIIMS New Delhi",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "pincode": "110029",
+    "lat": 28.5672,
+    "long": 77.21,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "oncology",
+      "neurology",
+      "orthopedic",
+      "pulmonology",
+      "pediatrics",
+      "dermatology"
+    ],
+    "cost_estimate_min": 15000,
+    "cost_estimate_max": 80000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "Advanced Trauma",
+      "Research Labs",
+      "24x7 Emergency"
+    ],
+    "bed_count": 2478,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 250000,
+    "rating": 4.9
+  },
+  {
+    "id": 12,
+    "name": "Medanta - The Medicity",
+    "city": "Gurgaon",
+    "state": "Delhi NCR",
+    "pincode": "122001",
+    "lat": 28.4385,
+    "long": 77.0427,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "orthopedic",
+      "oncology",
+      "neurology",
+      "pulmonology",
+      "gastroenterology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 150000,
+    "cost_estimate_max": 650000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Organ Transplant Center",
+      "Air Ambulance"
+    ],
+    "bed_count": 1250,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 120000,
+    "rating": 4.9
+  },
+  {
+    "id": 13,
+    "name": "Max Super Speciality Saket Delhi",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "pincode": "110017",
+    "lat": 28.5245,
+    "long": 77.2066,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "orthopedic",
+      "neurology",
+      "oncology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 180000,
+    "cost_estimate_max": 520000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 500,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 98000,
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "name": "Fortis Escorts Heart Institute Delhi",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "pincode": "110025",
+    "lat": 28.5672,
+    "long": 77.268,
+    "specialties": [
+      "cardiac",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 250000,
+    "cost_estimate_max": 600000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Robotic Surgery",
+      "Private Rooms"
+    ],
+    "bed_count": 310,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 67000,
+    "rating": 4.9
+  },
+  {
+    "id": 15,
+    "name": "Safdarjung Hospital Delhi",
+    "city": "Delhi",
+    "state": "Delhi NCR",
+    "pincode": "110029",
+    "lat": 28.5691,
+    "long": 77.2064,
+    "specialties": [
+      "general medicine",
+      "trauma",
+      "kidney",
+      "gynecology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 5000,
+    "cost_estimate_max": 50000,
+    "facilities": [
+      "ICU",
+      "Ambulance",
+      "24x7 Emergency"
+    ],
+    "bed_count": 1500,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 220000,
+    "rating": 4.4
+  },
+  {
+    "id": 16,
+    "name": "Tata Memorial Hospital Mumbai",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400012",
+    "lat": 19.0038,
+    "long": 72.843,
+    "specialties": [
+      "oncology",
+      "pulmonology",
+      "pediatrics"
+    ],
+    "cost_estimate_min": 40000,
+    "cost_estimate_max": 350000,
+    "facilities": [
+      "ICU",
+      "Chemotherapy Unit",
+      "Radiation Therapy",
+      "Private Rooms"
+    ],
+    "bed_count": 700,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 112000,
+    "rating": 4.9
+  },
+  {
+    "id": 17,
+    "name": "Lilavati Hospital & Research Centre",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400050",
+    "lat": 19.0508,
+    "long": 72.8295,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "kidney",
+      "gastroenterology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 200000,
+    "cost_estimate_max": 550000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 320,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 71000,
+    "rating": 4.8
+  },
+  {
+    "id": 18,
+    "name": "Kokilaben Dhirubhai Ambani Hospital",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400053",
+    "lat": 19.1312,
+    "long": 72.8252,
+    "specialties": [
+      "neurology",
+      "cardiac",
+      "orthopedic",
+      "oncology",
+      "pulmonology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 140000,
+    "cost_estimate_max": 550000,
+    "facilities": [
+      "ICU",
+      "Full Suite Neuro Lab",
+      "Intraoperative MRI",
+      "Emergency"
+    ],
+    "bed_count": 750,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 85000,
+    "rating": 4.9
+  },
+  {
+    "id": 19,
+    "name": "Mumbai Kidney Care Institute",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "pincode": "400012",
+    "lat": 19.017,
+    "long": 72.857,
+    "specialties": [
+      "kidney",
+      "nephrology"
+    ],
+    "cost_estimate_min": 100000,
+    "cost_estimate_max": 280000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 160,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 34000,
+    "rating": 4.6
+  },
+  {
+    "id": 20,
+    "name": "Ruby Hall Clinic Pune",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411001",
+    "lat": 18.5204,
+    "long": 73.8567,
+    "specialties": [
+      "cardiac",
+      "neurology",
+      "pulmonology",
+      "oncology"
+    ],
+    "cost_estimate_min": 95000,
+    "cost_estimate_max": 390000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Organ Transplant",
+      "24x7 Emergency"
+    ],
+    "bed_count": 550,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 64000,
+    "rating": 4.7
+  },
+  {
+    "id": 21,
+    "name": "Manipal Hospital Old Airport Road",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": "560017",
+    "lat": 12.9583,
+    "long": 77.6483,
+    "specialties": [
+      "orthopedic",
+      "neurology",
+      "kidney",
+      "pulmonology",
+      "gastroenterology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 380000,
+    "facilities": [
+      "ICU",
+      "Physiotherapy Hub",
+      "Stroke Center",
+      "Emergency"
+    ],
+    "bed_count": 600,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 68000,
+    "rating": 4.8
+  },
+  {
+    "id": 22,
+    "name": "Narayana Health City Bengaluru",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": "560099",
+    "lat": 12.8078,
+    "long": 77.6963,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "pediatrics",
+      "oncology"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 320000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Dialysis Unit",
+      "24x7 Emergency"
+    ],
+    "bed_count": 1400,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 130000,
+    "rating": 4.8
+  },
+  {
+    "id": 23,
+    "name": "Bengaluru Nephro & Urological Center",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": "560034",
+    "lat": 12.9352,
+    "long": 77.6146,
+    "specialties": [
+      "kidney",
+      "nephrology",
+      "urology"
+    ],
+    "cost_estimate_min": 70000,
+    "cost_estimate_max": 190000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 140,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 29000,
+    "rating": 4.6
+  },
+  {
+    "id": 24,
+    "name": "Apollo Hospitals Greams Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600006",
+    "lat": 13.0604,
+    "long": 80.2496,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "oncology",
+      "orthopedic",
+      "neurology",
+      "pulmonology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 110000,
+    "cost_estimate_max": 480000,
+    "facilities": [
+      "ICU",
+      "Proton Therapy",
+      "Robotic Surgery",
+      "24x7 Pharmacy"
+    ],
+    "bed_count": 560,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 72000,
+    "rating": 4.9
+  },
+  {
+    "id": 25,
+    "name": "Christian Medical College (CMC) Vellore",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "pincode": "632004",
+    "lat": 12.9246,
+    "long": 79.1348,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "neurology",
+      "oncology",
+      "pulmonology",
+      "gastroenterology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 20000,
+    "cost_estimate_max": 180000,
+    "facilities": [
+      "ICU",
+      "Transplant Unit",
+      "Blood Bank",
+      "Research Labs"
+    ],
+    "bed_count": 3000,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 210000,
+    "rating": 4.9
+  },
+  {
+    "id": 26,
+    "name": "MIOT International Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600089",
+    "lat": 13.0232,
+    "long": 80.1772,
+    "specialties": [
+      "orthopedic",
+      "cardiac",
+      "trauma"
+    ],
+    "cost_estimate_min": 85000,
+    "cost_estimate_max": 360000,
+    "facilities": [
+      "ICU",
+      "Robotic Joint Surgery",
+      "24x7 Emergency"
+    ],
+    "bed_count": 500,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 58000,
+    "rating": 4.7
+  },
+  {
+    "id": 27,
+    "name": "Yashoda Hospitals Somajiguda",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "500082",
+    "lat": 17.4239,
+    "long": 78.4556,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "kidney",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 80000,
+    "cost_estimate_max": 350000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Dialysis Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 450,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 65000,
+    "rating": 4.8
+  },
+  {
+    "id": 28,
+    "name": "Apollo Jubilee Hills Hyderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "500033",
+    "lat": 17.4312,
+    "long": 78.4072,
+    "specialties": [
+      "cardiac",
+      "oncology",
+      "neurology",
+      "gastroenterology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 120000,
+    "cost_estimate_max": 450000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "PET-CT Scanner",
+      "Emergency"
+    ],
+    "bed_count": 550,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 78000,
+    "rating": 4.8
+  },
+  {
+    "id": 29,
+    "name": "Apollo Gleneagles Hospital Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700054",
+    "lat": 22.5726,
+    "long": 88.3639,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "oncology",
+      "kidney",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 85000,
+    "cost_estimate_max": 380000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 450,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 60000,
+    "rating": 4.7
+  },
+  {
+    "id": 30,
+    "name": "Ruby General Hospital Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700078",
+    "lat": 22.5169,
+    "long": 88.3968,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "neurology"
+    ],
+    "cost_estimate_min": 75000,
+    "cost_estimate_max": 290000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 300,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 56000,
+    "rating": 4.6
+  },
+  {
+    "id": 31,
+    "name": "IPGMER & SSKM Hospital Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700020",
+    "lat": 22.5385,
+    "long": 88.3444,
+    "specialties": [
+      "general medicine",
+      "kidney",
+      "pulmonology",
+      "trauma"
+    ],
+    "cost_estimate_min": 8000,
+    "cost_estimate_max": 45000,
+    "facilities": [
+      "ICU",
+      "Ambulance",
+      "24x7 Emergency"
+    ],
+    "bed_count": 1800,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 160000,
+    "rating": 4.4
+  },
+  {
+    "id": 32,
+    "name": "Zydus Hospital Ahmedabad",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380054",
+    "lat": 23.0543,
+    "long": 72.5186,
+    "specialties": [
+      "cardiac",
+      "neurology",
+      "orthopedic",
+      "oncology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 400000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Cath Lab",
+      "Private Rooms"
+    ],
+    "bed_count": 550,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 62000,
+    "rating": 4.8
+  },
+  {
+    "id": 33,
+    "name": "UUN Mehta Institute of Cardiology",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380016",
+    "lat": 23.0534,
+    "long": 72.5902,
+    "specialties": [
+      "cardiac"
+    ],
+    "cost_estimate_min": 30000,
+    "cost_estimate_max": 150000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Cardiac Surgery",
+      "24x7 Emergency"
+    ],
+    "bed_count": 1200,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 95000,
+    "rating": 4.8
+  },
+  {
+    "id": 34,
+    "name": "Fortis Escorts Hospital Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "pincode": "302017",
+    "lat": 26.9124,
+    "long": 75.7873,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "oncology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 400000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Robotic Surgery",
+      "Private Rooms",
+      "24x7 Emergency"
+    ],
+    "bed_count": 300,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 45000,
+    "rating": 4.7
+  },
+  {
+    "id": 35,
+    "name": "SMS Government Hospital Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "pincode": "302004",
+    "lat": 26.897,
+    "long": 75.8164,
+    "specialties": [
+      "general medicine",
+      "kidney",
+      "pulmonology",
+      "orthopedic"
+    ],
+    "cost_estimate_min": 5000,
+    "cost_estimate_max": 35000,
+    "facilities": [
+      "ICU",
+      "Trauma Center",
+      "Ambulance"
+    ],
+    "bed_count": 2500,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 240000,
+    "rating": 4.3
+  },
+  {
+    "id": 36,
+    "name": "Aster Medcity Kochi",
+    "city": "Kochi",
+    "state": "Kerala",
+    "pincode": "682027",
+    "lat": 10.0261,
+    "long": 76.2764,
+    "specialties": [
+      "cardiac",
+      "neurology",
+      "oncology",
+      "kidney",
+      "pulmonology",
+      "gastroenterology"
+    ],
+    "cost_estimate_min": 100000,
+    "cost_estimate_max": 420000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Organ Transplant",
+      "Private Rooms"
+    ],
+    "bed_count": 670,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 70000,
+    "rating": 4.9
+  },
+  {
+    "id": 37,
+    "name": "Amrita Institute of Medical Sciences",
+    "city": "Kochi",
+    "state": "Kerala",
+    "pincode": "682041",
+    "lat": 10.0326,
+    "long": 76.2995,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "neurology",
+      "oncology",
+      "pediatrics",
+      "dermatology"
+    ],
+    "cost_estimate_min": 40000,
+    "cost_estimate_max": 250000,
+    "facilities": [
+      "ICU",
+      "Bone Marrow Transplant",
+      "Robotic Surgery",
+      "Research Center"
+    ],
+    "bed_count": 1350,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 115000,
+    "rating": 4.9
+  },
+  {
+    "id": 38,
+    "name": "Medanta Super Speciality Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "pincode": "226030",
+    "lat": 26.7725,
+    "long": 80.9982,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "orthopedic",
+      "neurology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 110000,
+    "cost_estimate_max": 480000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Robotic Surgery",
+      "Organ Transplant"
+    ],
+    "bed_count": 1000,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 82000,
+    "rating": 4.8
+  },
+  {
+    "id": 39,
+    "name": "SGPGI Lucknow",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "pincode": "226014",
+    "lat": 26.745,
+    "long": 80.938,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "neurology",
+      "gastroenterology"
+    ],
+    "cost_estimate_min": 25000,
+    "cost_estimate_max": 150000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "Transplant Unit",
+      "Blood Bank"
+    ],
+    "bed_count": 1200,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 98000,
+    "rating": 4.9
+  },
+  {
+    "id": 40,
+    "name": "Fortis Hospital Noida",
+    "city": "Noida",
+    "state": "Uttar Pradesh",
+    "pincode": "201301",
+    "lat": 28.6186,
+    "long": 77.3725,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "oncology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 95000,
+    "cost_estimate_max": 420000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Dialysis Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 400,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 55000,
+    "rating": 4.7
+  },
+  {
+    "id": 41,
+    "name": "AIIMS Rishikesh",
+    "city": "Rishikesh",
+    "state": "Uttarakhand",
+    "pincode": "249203",
+    "lat": 30.1158,
+    "long": 78.2976,
+    "specialties": [
+      "cardiac",
+      "neurology",
+      "oncology",
+      "orthopedic",
+      "kidney",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 5000,
+    "cost_estimate_max": 100000,
+    "facilities": [
+      "ICU",
+      "Transplant Unit",
+      "Blood Bank",
+      "24x7 Emergency",
+      "Trauma Center"
+    ],
+    "bed_count": 960,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 110000,
+    "rating": 4.8
+  },
+  {
+    "id": 42,
+    "name": "Max Hospital Dehradun",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "pincode": "248001",
+    "lat": 30.3165,
+    "long": 78.0322,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "kidney",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 70000,
+    "cost_estimate_max": 300000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Dialysis Unit",
+      "Private Rooms"
+    ],
+    "bed_count": 280,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 36000,
+    "rating": 4.6
+  },
+  {
+    "id": 43,
+    "name": "Patiala Heart & Vascular Institute",
+    "city": "Patiala",
+    "state": "Punjab",
+    "pincode": "147001",
+    "lat": 30.3398,
+    "long": 76.3869,
+    "specialties": [
+      "cardiac"
+    ],
+    "cost_estimate_min": 160000,
+    "cost_estimate_max": 350000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Private Rooms"
+    ],
+    "bed_count": 95,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 19000,
+    "rating": 4.5
+  },
+  {
+    "id": 44,
+    "name": "Rajindra Government Hospital Patiala",
+    "city": "Patiala",
+    "state": "Punjab",
+    "pincode": "147001",
+    "lat": 30.3398,
+    "long": 76.3869,
+    "specialties": [
+      "general medicine",
+      "orthopedic",
+      "kidney",
+      "pediatrics"
+    ],
+    "cost_estimate_min": 8000,
+    "cost_estimate_max": 40000,
+    "facilities": [
+      "ICU",
+      "Ambulance",
+      "24x7 Emergency"
+    ],
+    "bed_count": 400,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 61000,
+    "rating": 4.2
+  },
+  {
+    "id": 45,
+    "name": "Bathinda Advanced Cancer Care Institute",
+    "city": "Bathinda",
+    "state": "Punjab",
+    "pincode": "151001",
+    "lat": 30.211,
+    "long": 74.9455,
+    "specialties": [
+      "oncology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 120000,
+    "cost_estimate_max": 500000,
+    "facilities": [
+      "ICU",
+      "Chemotherapy Unit",
+      "Radiation Therapy",
+      "Private Rooms"
+    ],
+    "bed_count": 85,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 16000,
+    "rating": 4.6
+  },
+  {
+    "id": 46,
+    "name": "Manipal Hospital Jaipur",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "pincode": "302017",
+    "lat": 26.9124,
+    "long": 75.7873,
+    "specialties": [
+      "cardiac",
+      "orthopedic",
+      "neurology",
+      "oncology"
+    ],
+    "cost_estimate_min": 85000,
+    "cost_estimate_max": 380000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Robotic Surgery",
+      "Private Rooms"
+    ],
+    "bed_count": 280,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 38000,
+    "rating": 4.7
+  },
+  {
+    "id": 47,
+    "name": "Regency Super Speciality Hospital Kanpur",
+    "city": "Kanpur",
+    "state": "Uttar Pradesh",
+    "pincode": "208005",
+    "lat": 26.4499,
+    "long": 80.3319,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "neurology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 70000,
+    "cost_estimate_max": 320000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Dialysis Unit",
+      "24x7 Emergency"
+    ],
+    "bed_count": 350,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 48000,
+    "rating": 4.6
+  },
+  {
+    "id": 48,
+    "name": "Apollo Hospital Ahmedabad",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "382428",
+    "lat": 23.1118,
+    "long": 72.6397,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "orthopedic",
+      "oncology",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 100000,
+    "cost_estimate_max": 450000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Organ Transplant",
+      "24x7 Emergency"
+    ],
+    "bed_count": 400,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 58000,
+    "rating": 4.8
+  },
+  {
+    "id": 49,
+    "name": "Shalby Multispecialty Hospital Ahmedabad",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "pincode": "380015",
+    "lat": 23.0225,
+    "long": 72.5714,
+    "specialties": [
+      "orthopedic",
+      "joint replacement",
+      "cardiac"
+    ],
+    "cost_estimate_min": 80000,
+    "cost_estimate_max": 350000,
+    "facilities": [
+      "ICU",
+      "Robotic Joint Center",
+      "Private Rooms"
+    ],
+    "bed_count": 450,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 64000,
+    "rating": 4.7
+  },
+  {
+    "id": 50,
+    "name": "KIMS Hospitals Secunderabad",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "pincode": "500003",
+    "lat": 17.4399,
+    "long": 78.4983,
+    "specialties": [
+      "cardiac",
+      "pulmonology",
+      "neurology",
+      "gastroenterology"
+    ],
+    "cost_estimate_min": 85000,
+    "cost_estimate_max": 380000,
+    "facilities": [
+      "ICU",
+      "Heart Transplant Center",
+      "Robotic Surgery"
+    ],
+    "bed_count": 1000,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 92000,
+    "rating": 4.8
+  },
+  {
+    "id": 51,
+    "name": "Fortis Hospital Anandapur Kolkata",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "pincode": "700107",
+    "lat": 22.5123,
+    "long": 88.3989,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "pulmonology",
+      "orthopedic"
+    ],
+    "cost_estimate_min": 90000,
+    "cost_estimate_max": 400000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Organ Transplant",
+      "24x7 Emergency"
+    ],
+    "bed_count": 400,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 52000,
+    "rating": 4.7
+  },
+  {
+    "id": 52,
+    "name": "Kovai Medical Center (KMCH) Coimbatore",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "pincode": "641014",
+    "lat": 11.0404,
+    "long": 77.0396,
+    "specialties": [
+      "cardiac",
+      "kidney",
+      "oncology",
+      "pulmonology",
+      "neurology"
+    ],
+    "cost_estimate_min": 75000,
+    "cost_estimate_max": 320000,
+    "facilities": [
+      "ICU",
+      "Robotic Surgery",
+      "Organ Transplant",
+      "Trauma Center"
+    ],
+    "bed_count": 1000,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 88000,
+    "rating": 4.8
+  },
+  {
+    "id": 53,
+    "name": "Fortis Malar Hospital Chennai",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "pincode": "600020",
+    "lat": 13.0067,
+    "long": 80.2572,
+    "specialties": [
+      "cardiac",
+      "heart transplant",
+      "pulmonology",
+      "dermatology"
+    ],
+    "cost_estimate_min": 120000,
+    "cost_estimate_max": 500000,
+    "facilities": [
+      "ICU",
+      "Cath Lab",
+      "Heart Failure Clinic"
+    ],
+    "bed_count": 180,
+    "accreditation_status": "NABH Accredited",
+    "patient_volume": 28000,
+    "rating": 4.7
+  },
+  {
+    "id": 54,
+    "name": "BMS Hospital Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "pincode": "143001",
+    "lat": 31.634,
+    "long": 74.8723,
+    "specialties": [
+      "general medicine",
+      "pulmonology",
+      "orthopedic"
+    ],
+    "cost_estimate_min": 25000,
+    "cost_estimate_max": 90000,
+    "facilities": [
+      "ICU",
+      "Private Rooms"
+    ],
+    "bed_count": 130,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 26000,
+    "rating": 4.3
+  },
+  {
+    "id": 55,
+    "name": "Guru Nanak Dev Hospital Amritsar",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "pincode": "143001",
+    "lat": 31.634,
+    "long": 74.8723,
+    "specialties": [
+      "kidney",
+      "cardiac",
+      "trauma",
+      "pulmonology"
+    ],
+    "cost_estimate_min": 30000,
+    "cost_estimate_max": 150000,
+    "facilities": [
+      "ICU",
+      "Dialysis Unit",
+      "24x7 Emergency",
+      "Ambulance"
+    ],
+    "bed_count": 500,
+    "accreditation_status": "State Govt Certified",
+    "patient_volume": 72000,
+    "rating": 4.4
+  }
+]
