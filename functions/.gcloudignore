@@ -1,0 +1,6 @@
+# Files uploaded to Cloud Functions (dist/ and hospitals_seed.json MUST ship).
+.git
+node_modules
+*.log
+firebase-debug.log
+firebase-debug.*.log

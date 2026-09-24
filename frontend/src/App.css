@@ -928,3 +928,26 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* -------------------------------------------------------------
+   PATIENT REVIEWS toggle (compact, inside hospital card)
+------------------------------------------------------------- */
+.reviews-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--text-accent-blue);
+  background: rgba(36, 82, 166, 0.12);
+  border: 1px solid rgba(36, 82, 166, 0.35);
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.reviews-toggle:hover {
+  background: rgba(36, 82, 166, 0.22);
+}

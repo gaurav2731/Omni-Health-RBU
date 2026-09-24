@@ -2,8 +2,16 @@
 // The app previously stored all data in localStorage and never called the
 // backend — every function below now goes through the real REST API.
 
-// Overridable for tests / deployments; no import.meta so jest can transform this file.
-const API_BASE = (typeof window !== 'undefined' && window.__API_BASE__) || 'http://localhost:3001';
+// API base resolution order:
+// 1. window.__API_BASE__ — test/DI hook (jest sets this)
+// 2. __OMNI_API_BASE__ — build-time constant injected by Vite's `define`
+//    (see vite.config.js) from the VITE_API_BASE env var, so production
+//    deploys (Vercel) can point at the Firebase Functions URL. The typeof
+//    guard keeps jest (which never defines it) safe, and avoids a literal
+//    `import.meta` in this file (babel-jest cannot transform that).
+// 3. http://localhost:3001 — local development default.
+const ENV_API_BASE = typeof __OMNI_API_BASE__ !== 'undefined' ? __OMNI_API_BASE__ : '';
+const API_BASE = (typeof window !== 'undefined' && window.__API_BASE__) || ENV_API_BASE || 'http://localhost:3001';
 
 async function request(path, options = {}) {
   const res = await fetch(`${API_BASE}${path}`, {

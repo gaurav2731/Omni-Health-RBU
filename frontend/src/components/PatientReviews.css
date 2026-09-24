@@ -1,0 +1,114 @@
+/* -------------------------------------------------------------
+   PATIENT REVIEWS (hospital profile) — compact variant
+   4px ten-block bars, minimal vertical spacing / padding.
+   NOTE: values rendered here are SAMPLE demo data (see component).
+------------------------------------------------------------- */
+
+.patient-reviews {
+  background: var(--bg-input);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+}
+
+.reviews-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.reviews-title {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-main);
+  margin: 0;
+}
+
+/* Honest labelling: never present sample numbers as real stats */
+.reviews-sample-badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.reviews-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* compact rows */
+  min-width: 0;
+}
+
+.reviews-subtitle {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin: 0 0 2px;
+}
+
+/* --- Row: label | 10-block bar | % value ----------------------- */
+.review-row {
+  display: grid;
+  grid-template-columns: 158px 1fr 38px;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.review-row-label {
+  font-size: 0.72rem;
+  color: var(--text-soft);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review-row-value {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-main);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- 4px ten-block bar ------------------------------------------ */
+.review-bar {
+  display: flex;
+  gap: 2px;
+  min-width: 0;
+}
+
+.review-block {
+  flex: 1 1 0;
+  height: 4px;
+  border-radius: 1px;
+  background: rgba(138, 150, 172, 0.18); /* empty block */
+}
+
+.review-block.filled {
+  background: var(--secondary-mint); /* filled block ≈ 10% */
+}
+
+.reviews-disclaimer {
+  margin: 10px 0 0;
+  padding-top: 8px;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}

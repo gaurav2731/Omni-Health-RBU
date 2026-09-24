@@ -1,0 +1,6 @@
+node_modules/
+dist/
+hospitals_seed.json
+firebase-debug.log
+firebase-debug.*.log
+*.log

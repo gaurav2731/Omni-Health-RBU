@@ -8,6 +8,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // Inject the production API base (Firebase Functions URL) as a build-time
+  // constant instead of using import.meta.env inside api.js — jest/babel
+  // cannot transform import.meta, and this keeps api.js test-safe.
+  // Local dev: unset → api.js falls back to http://localhost:3001.
+  define: {
+    __OMNI_API_BASE__: JSON.stringify(process.env.VITE_API_BASE || ''),
+  },
   resolve: {
     alias: {
       // Shared parser/filter modules live at the project root, outside frontend/.

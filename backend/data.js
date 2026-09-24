@@ -3,8 +3,18 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { filterHospitals, rankBySpecialtyRelevance } from '../shared/filters.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Module directory: works both as native ESM (node/jest — import.meta.url)
+// and inside the esbuild CJS bundle for Cloud Functions (where import.meta
+// is unavailable → fall back to the process cwd, which is the functions
+// workspace containing hospitals_seed.json).
+function resolveModuleDir() {
+  try {
+    return path.dirname(fileURLToPath(import.meta.url));
+  } catch {
+    return process.cwd();
+  }
+}
+const moduleDir = resolveModuleDir();
 
 // Data file resolution:
 // 1. OMNIHEALTH_DATA_FILE env var (used by tests for isolation)
@@ -12,7 +22,7 @@ const __dirname = path.dirname(__filename);
 // 3. cwd fallback
 function resolveDataFile() {
   if (process.env.OMNIHEALTH_DATA_FILE) return process.env.OMNIHEALTH_DATA_FILE;
-  const rootSeed = path.join(__dirname, '..', 'hospitals_seed.json');
+  const rootSeed = path.join(moduleDir, '..', 'hospitals_seed.json');
   if (fs.existsSync(rootSeed)) return rootSeed;
   return path.join(process.cwd(), 'hospitals_seed.json');
 }

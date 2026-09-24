@@ -1,7 +1,12 @@
-import { memo } from 'react';
+import { memo, useState } from 'react';
 import { formatCost, formatNumber } from '../lib/format';
+import PatientReviews from './PatientReviews';
 
 function HospitalCard({ hospital, selected, onToggle }) {
+  // Patient Reviews is a per-card profile section (sample data, clearly
+  // labelled). Local state keeps memo() effective: expanding one card does
+  // not re-render the others.
+  const [showReviews, setShowReviews] = useState(false);
   // Calls onToggle WITH the hospital so the parent can pass one stable
   // callback for all cards (keeps the memo() below effective).
   const handleToggle = () => onToggle(hospital);
@@ -81,6 +86,20 @@ function HospitalCard({ hospital, selected, onToggle }) {
             <span className="metric-label">Annual Patients</span>
           </div>
         </div>
+
+        {/* Hospital profile: PATIENT REVIEWS (sample data, compact bars) */}
+        <button
+          type="button"
+          className="reviews-toggle"
+          aria-expanded={showReviews}
+          onClick={(e) => { e.stopPropagation(); setShowReviews((v) => !v); }}
+        >
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
+            <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+          </svg>
+          {showReviews ? 'Hide Patient Reviews' : 'Patient Reviews'}
+        </button>
+        {showReviews && <PatientReviews hospital={hospital} />}
       </div>
 
       <div className="hospital-footer">

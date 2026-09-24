@@ -1,0 +1,24 @@
+{
+  "name": "omnihealth-functions",
+  "version": "1.0.0",
+  "description": "Firebase Functions (v2) wrapper for the OmniHealth Lite backend API",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "build": "esbuild ../backend/index.js --bundle --platform=node --format=cjs --outfile=dist/backend/index.js && node -e \"require('fs').copyFileSync('../hospitals_seed.json', 'hospitals_seed.json')\"",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "deploy": "npm run build && firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-functions": "^6.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
