@@ -951,3 +951,249 @@ body {
 .reviews-toggle:hover {
   background: rgba(36, 82, 166, 0.22);
 }
+
+/* =============================================================
+   RESPONSIVE LAYER — mobile / tablet
+   Elements were overflowing and jumbling on phone screens; these
+   media queries stack layouts, allow wrapping, and shrink fixed
+   sizes so nothing overlaps or pushes sideways at 360–900px.\n============================================================= */
+
+/* ---------- Tablet and below (≤ 900px) ---------- */
+@media (max-width: 900px) {
+  /* Header: let it wrap instead of pushing elements off-screen */
+  .header-content {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .nav-tabs {
+    flex-wrap: wrap;
+    order: 3;
+    width: 100%;
+  }
+
+  .nav-tab {
+    padding: 7px 12px;
+    font-size: 0.8125rem;
+  }
+
+  /* Emergency bar: stack text and button */
+  .utility-emergency-bar {
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px 12px;
+    text-align: center;
+  }
+
+  /* Refine row (age + budget) wraps instead of overflowing */
+  .refine-row {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .refine-row > div {
+    flex-wrap: wrap;
+  }
+
+  /* Premium-mode note gets its own full line instead of squeezing */
+  .refine-row .mint-note {
+    flex: 1 1 100%;
+  }
+
+  /* Search form: input and button stack vertically */
+  .search-card-form {
+    flex-direction: column;
+  }
+
+  .search-card-form .btn {
+    width: 100%;
+  }
+
+  /* Admin/comparison tables scroll horizontally instead of breaking layout */
+  .comparison-table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .comparison-table,
+  .admin-table {
+    min-width: 640px;
+  }
+
+  /* Chatbot window fills more of small screens */
+  .chatbot-window {
+    width: calc(100vw - 32px);
+    right: 16px;
+    height: min(560px, calc(100vh - 140px));
+  }
+}
+
+/* ---------- Phones (≤ 640px) ---------- */
+@media (max-width: 640px) {
+  .main {
+    padding: 16px 12px;
+  }
+
+  .section {
+    padding: 18px 14px;
+    border-radius: var(--radius-md);
+  }
+
+  /* Hero: headline scales down, CTA buttons go full-width */
+  .hero-headline {
+    font-size: 1.6rem;
+    letter-spacing: -0.3px;
+  }
+
+  .hero-body {
+    font-size: 0.9rem;
+  }
+
+  .hero-container > div:first-child > div {
+    flex-wrap: wrap; /* Explore Hospitals + Doctor Line buttons */
+  }
+
+  .hero-container > div:first-child > div .btn {
+    flex: 1 1 100%;
+  }
+
+  .hero-stats-row {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .hero-stat-num {
+    font-size: 1.1rem;
+  }
+
+  .hero-stat-label {
+    font-size: 0.62rem;
+  }
+
+  /* Filters grid: single column stack */
+  .filter-form-grid {
+    grid-template-columns: 1fr !important; /* overrides inline style */
+  }
+
+  /* Hospital cards: single column, no squeeze */
+  .hospital-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hospital-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .metrics-row {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 8px;
+  }
+
+  .metric-value {
+    font-size: 0.78rem;
+  }
+
+  .metric-label {
+    font-size: 0.58rem;
+  }
+
+  /* Result header wraps above the view switcher */
+  #search-results > div:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  /* Extracted-filters bar wraps chips */
+  .extracted-filters-bar {
+    gap: 6px;
+  }
+
+  /* Comparison / admin tables get comfortable scroll + hint */
+  .comparison-table th,
+  .comparison-table td,
+  .admin-table th,
+  .admin-table td {
+    padding: 10px 12px;
+    font-size: 0.8rem;
+  }
+
+  /* Admin stats stack */
+  .admin-stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Modals use full width with small padding */
+  .modal-overlay {
+    padding: 10px;
+    align-items: flex-end; /* sheet-style bottom modal on phones */
+  }
+
+  .modal-content {
+    max-height: 92vh;
+  }
+
+  /* Chatbot: near-fullscreen sheet */
+  .chatbot-toggle-btn {
+    width: 42px;
+    height: 42px;
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .chatbot-widget {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .chatbot-window {
+    bottom: 70px;
+    height: min(70vh, 540px);
+  }
+
+  /* Patient Reviews: two-line rows on phones — label + % on top,
+     full-width bar below — so no label is ever truncated. */
+  .review-row {
+    grid-template-columns: 1fr 36px;
+    grid-template-areas:
+      "label value"
+      "bar bar";
+    row-gap: 3px;
+    column-gap: 6px;
+  }
+
+  .review-row-label {
+    grid-area: label;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    font-size: 0.72rem;
+  }
+
+  .review-row-value {
+    grid-area: value;
+    font-size: 0.72rem;
+  }
+
+  .review-bar {
+    grid-area: bar;
+  }
+}
+
+/* ---------- Very small phones (≤ 380px) ---------- */
+@media (max-width: 380px) {
+  .hero-headline {
+    font-size: 1.35rem;
+  }
+
+  .review-row {
+    grid-template-columns: 96px 1fr 32px;
+  }
+
+  .hospital-name {
+    font-size: 1rem;
+  }
+}
