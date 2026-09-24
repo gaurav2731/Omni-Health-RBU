@@ -1,4 +1,5 @@
 import fs from 'fs';
+import os from 'os';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { filterHospitals, rankBySpecialtyRelevance } from '../shared/filters.js';
@@ -18,16 +19,23 @@ const moduleDir = resolveModuleDir();
 
 // Data file resolution:
 // 1. OMNIHEALTH_DATA_FILE env var (used by tests for isolation)
-// 2. Root hospitals_seed.json (default)
-// 3. cwd fallback
+// 2. Serverless runtimes (Vercel / Cloud Functions): the deploy filesystem
+//    is READ-ONLY, so writes go to a copy in the writable tmp dir. The seed
+//    in the bundle is the cold-start source; first write copies it to tmp.
+// 3. Local dev: root hospitals_seed.json (writable as before).
+const IS_SERVERLESS = Boolean(process.env.VERCEL || process.env.FUNCTION_TARGET || process.env.K_SERVICE);
+
 function resolveDataFile() {
   if (process.env.OMNIHEALTH_DATA_FILE) return process.env.OMNIHEALTH_DATA_FILE;
+  if (IS_SERVERLESS) return path.join(os.tmpdir(), 'omnihealth-hospitals.json');
   const rootSeed = path.join(moduleDir, '..', 'hospitals_seed.json');
   if (fs.existsSync(rootSeed)) return rootSeed;
   return path.join(process.cwd(), 'hospitals_seed.json');
 }
 
 const DATA_FILE = resolveDataFile();
+// Read-only source of truth for the serverless cold start (the bundled seed).
+const SEED_FILE = path.join(moduleDir, '..', 'hospitals_seed.json');
 
 const ALLOWED_FIELDS = [
   'name', 'city', 'state', 'pincode', 'lat', 'long', 'specialties',
@@ -39,6 +47,18 @@ let hospitalsCache = null;
 
 export function loadHospitals() {
   if (hospitalsCache) return hospitalsCache;
+  // Serverless cold start: tmp copy may not exist yet — fall back to the
+  // bundled seed so reads always work even before any write happens.
+  if (!fs.existsSync(DATA_FILE) && IS_SERVERLESS && fs.existsSync(SEED_FILE)) {
+    try {
+      fs.copyFileSync(SEED_FILE, DATA_FILE);
+    } catch {
+      // If even the tmp copy fails, read the seed directly (still read-only OK).
+      const parsed = JSON.parse(fs.readFileSync(SEED_FILE, 'utf-8'));
+      hospitalsCache = Array.isArray(parsed) ? parsed : parsed.hospitals || [];
+      return hospitalsCache;
+    }
+  }
   if (!fs.existsSync(DATA_FILE)) {
     hospitalsCache = [];
     return hospitalsCache;
@@ -134,6 +154,9 @@ export function deleteHospital(id) {
 }
 
 function saveHospitals(hospitals) {
+  if (IS_SERVERLESS && !fs.existsSync(DATA_FILE) && fs.existsSync(SEED_FILE)) {
+    fs.copyFileSync(SEED_FILE, DATA_FILE);
+  }
   fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
   fs.writeFileSync(DATA_FILE, JSON.stringify(hospitals, null, 2));
   hospitalsCache = hospitals;
