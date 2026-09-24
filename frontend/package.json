@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "vercel-setup": "npm ci --no-audit --no-fund",
+    "vercel-build": "vite build",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",

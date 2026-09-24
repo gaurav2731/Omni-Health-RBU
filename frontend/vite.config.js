@@ -26,5 +26,15 @@ export default defineConfig({
       // Allow the dev server to serve the shared/ directory.
       allow: [path.resolve(__dirname, '..')],
     },
+    // Local dev: /api/* proxies to the Express backend on :3001 (path prefix
+    // stripped — backend routes are unprefixed). Mirrors the production
+    // Vercel serverless function at the same /api/* origin.
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+        rewrite: (p) => p.replace(/^\/api/, '') || '/',
+      },
+    },
   },
 })

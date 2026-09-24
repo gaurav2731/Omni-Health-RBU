@@ -3,5 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "OmniHealth Lite - hospital discovery platform (backend + frontend + shared modules)"
+  "description": "OmniHealth Lite - hospital discovery platform (backend + frontend + shared modules)",
+  "scripts": {
+    "vercel-setup": "npm ci --no-audit --no-fund && npm ci --prefix frontend --no-audit --no-fund",
+    "vercel-build": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
 }
